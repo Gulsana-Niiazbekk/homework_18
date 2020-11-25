@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #e5e5e5;
+  max-width: 1440px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  max-width: 1440px;
+  height: 77px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header__left-container {
+  width: 401px;
+  padding-left: 43px;
+}
+
+.header__company-name {
+  font-family: Lato;
+  font-size: 28px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.header__menu {
+  padding: 20px;
+  font-size: 16px;
+  margin-left: 5px;
+  font-family: Lato;
+  text-transform: uppercase;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  width: 512px;
+  list-style-type: none;
+  display: flex;
+}
+
+.header__info-link:hover {
+  color: rgb(54, 216, 216);
+}
+
+.header__home-link {
+  text-transform: uppercase;
+  font-family: Lato;
+  color: #7b1f1f;
+}
+
+.header__home-link:hover {
+  color: rgb(40, 221, 221);
+}
+
+.header__right-container {
+  text-transform: uppercase;
+  color: #000000;
+  line-height: 19px;
+  letter-spacing: 0.04em;
+}
+
